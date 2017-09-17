@@ -1,0 +1,175 @@
+/*~~General*/
+html {
+  font-size: 8px;
+}
+.frame {
+  display: flex;
+  width: 100%;
+}
+.container {
+  display: flex;
+  align-items: center;
+}
+.item, .row {
+  display: flex;
+}
+h1, h2, h3, p, a, li {
+font-family: 'Oxygen', sans-serif;
+}
+a {
+  color: #000;
+  text-decoration: none;
+}
+/*~~Header*/
+header {
+  position: fixed;
+  justify-content: space-between;
+  z-index: 50;
+  height: 8rem;
+  background-color: #FFF;
+  font-size: 3rem;
+}
+header img {
+  height: 4rem;
+  margin-left: 3rem;
+}
+header ul li {
+  margin: 1rem;
+}
+header ul li:last-child {
+  margin-right: 3rem;
+}
+
+/*~~Banner*/
+.banner {
+  padding-top: 8rem;
+  background-color: #DDD;
+  justify-content: flex-start;
+}
+.banner img {
+  margin: 32px 24px;
+  width: 55vw;
+}
+.banner .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner .item {
+  margin: 1.5rem;
+  flex-direction: column;
+}
+.banner h1, .banner h2, .banner .btn {
+  display: block;
+}
+.banner .btn {
+  background-color: grey;
+}
+.banner h1 {
+  font-size: 5rem;
+}
+.banner h2 {
+  font-size: 4rem;
+}
+.banner h3 {
+  font-size: 3.5rem;
+  padding: 1rem 10rem;
+}
+
+/*~~Main*/
+main {
+  font-size: 3rem;
+}
+/*~Preamble*/
+.preamble .left {
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 4rem 3rem;
+  width: calc(55vw + 6rem);
+}
+.preamble .left img {
+  width: 55vw;
+}
+.preamble .left h1 {
+  font-size: 6rem;
+  margin: 4rem 0 3rem;
+}
+.preamble .left h2 {
+  font-size: 3rem;
+}
+.preamble .right {
+  flex-direction: column;
+  width: 50vw;
+  border-left: 0.25rem solid #DDD;
+  padding-top: 2rem;
+}
+.preamble .right .item {
+  flex-direction: row;
+  width: 100%;
+  border-bottom: 0.25rem solid #DDD;
+}
+.preamble .right img {
+  width: 35%;
+  margin: 2rem;
+}
+.preamble .right .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 65%;
+}
+.preamble .right h1, .preamble .right p, .preamble .right a {
+  margin: 1rem;
+}
+.preamble .right h1 {
+  font-size: 4rem;
+}
+.preamble .right .item:last-child {
+  background-color: #DDD;
+}
+/*~Learn*/
+.learn {
+  flex-direction: column;
+  background-color: #DDD;
+  padding-bottom: 4rem;
+}
+.learn .container {
+  flex-direction: inherit;
+}
+.learn h1:first-child {
+  font-size: 5rem;
+  text-align: center;
+  font-weight: 700;
+  margin: 32px 0;
+  color: #444;
+}
+.learn .row {
+  margin: 0 9rem;
+  justify-content: space-between;
+}
+.learn .card {
+  margin: 4rem;
+  background-color: #FFF;
+}
+.learn img {
+  width: 45rem;
+  margin: 0 0 2rem;
+}
+.learn h1, .learn h2, .learn h3 {
+  margin: 0 2rem;
+}
+.learn h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  margin: 2rem;
+}
+.learn h2 {
+  margin: 1rem 2rem;
+}
+.learn h3 {
+  margin: 1rem 2rem 3rem 2rem;
+}
+/*~Thesis*/
+.thesis h1 {
+  margin: 4rem 0;
+}
